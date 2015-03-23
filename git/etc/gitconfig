@@ -3,3 +3,6 @@
 	autocrlf = input
 [http]
 	sslCAinfo = /bin/curl-ca-bundle.crt
+[url "https://"]
+	insteadOf = git://
+
